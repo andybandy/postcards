@@ -1,13 +1,15 @@
-var s = function(sketch) {
-  sketch.setup = function() {
-    createCanvas(700, 400);
-    background(255);
+(function() {
+  var s = function(sketch) {
+    sketch.setup = function() {
+      sketch.createCanvas(700, 400);
+      sketch.background(212);
+    };
+
+    sketch.draw = function() {
+    };
+
+    return sketch;
   };
 
-  sketch.draw = function() {
-  };
-
-  return sketch;
-};
-
-p5(s);
+  var p = new p5(s);
+})();
