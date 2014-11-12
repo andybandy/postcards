@@ -2,6 +2,7 @@ var gulp = require('gulp'),
   nodemon = require('gulp-nodemon'),
   paths = {
     vendorSourcesMin: [
+      'node_modules/jquery/dist/jquery.min.js',
       'node_modules/dropzone/downloads/dropzone.min.js',
       'node_modules/dropzone/downloads/css/dropzone.css',
       'node_modules/p5/lib/p5.min.js'

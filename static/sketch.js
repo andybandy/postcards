@@ -1,15 +1,28 @@
 (function() {
-  var s = function(sketch) {
-    sketch.setup = function() {
-      sketch.createCanvas(700, 400);
-      sketch.background(212);
+  var app = {};
+
+  app.init = function(imgPath) {
+    app.s = function(sketch) {
+      var img;
+
+      sketch.preload = function() {
+        img = sketch.loadImage(imgPath);
+      };
+
+      sketch.setup = function() {
+        sketch.createCanvas(640, 480);
+        sketch.background(200);
+        sketch.image(img, 0, 0, sketch.width, sketch.height);
+      };
+
+      sketch.draw = function() {
+      };
+
+      return sketch;
     };
 
-    sketch.draw = function() {
-    };
-
-    return sketch;
+    app.p = new p5(app.s);
   };
 
-  var p = new p5(s);
+  window.postapp = app;
 })();
