@@ -5,6 +5,7 @@ var gulp = require('gulp'),
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/dropzone/downloads/dropzone.min.js',
       'node_modules/dropzone/downloads/css/dropzone.css',
+      'node_modules/p5/lib/addons/p5.dom.js',
       'node_modules/p5/lib/p5.min.js'
     ],
     vendors: 'static/vendor'
