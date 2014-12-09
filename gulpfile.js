@@ -6,7 +6,9 @@ var gulp = require('gulp'),
       'node_modules/dropzone/downloads/dropzone.min.js',
       'node_modules/dropzone/downloads/css/dropzone.css',
       'node_modules/p5/lib/addons/p5.dom.js',
-      'node_modules/p5/lib/p5.min.js'
+      'node_modules/p5/lib/p5.min.js',
+      'bower_components/materialize/bin/materialize.js',
+      'bower_components/materialize/bin/materialize.css'
     ],
     vendors: 'static/vendor'
   };

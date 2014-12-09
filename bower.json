@@ -1,0 +1,19 @@
+{
+  "name": "postcards",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andybandy/postcards",
+  "authors": [
+    "Andrei Shchatko <andrei.shchatko@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "latest"
+  }
+}
